@@ -25,7 +25,7 @@ int main() {
     FILE *inputFile;
     int i, bufferIndex = 0;
 
-    inputFile = fopen("t4tutorials.txt", "r");
+    inputFile = fopen("text.txt", "r");
     if (inputFile == NULL) {
         printf("Error: Unable to open the file\n");
         exit(1);
